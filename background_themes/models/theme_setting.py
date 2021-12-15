@@ -3,8 +3,8 @@
 from odoo import models, fields, api
 
 
-class theme_settings(models.Model):
-     _name = 'themes.settings'
+class Settings(models.Model):
+     _name = 'theme.setting'
      _description = 'Configuration du themes'
      nav_font_color = fields.Char()
      nav_background_color = fields.Char()
